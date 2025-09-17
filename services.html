@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Kaefin Coffee Shop, Coffee, Cafe, HTML5 Template">
+    <meta name="description" content="Kaefin - Coffee Shop HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title -->
+    <title>Kaefin | Our Services</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/image/fav.png" title="Favicon" sizes="16x16">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    <!-- Lity -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Home style -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <script>
+        window.ga = window.ga || function () {
+            (ga.q = ga.q || []).push(arguments)
+        };
+        ga.l = +new Date;
+        ga('create', 'UA-105392568-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body class="home-st2 services-page-st2">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- Start Loading -->
+    <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" width="100%" height="100%">
+            <defs>
+                <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color: #000" />
+                    <stop offset="100%" style="stop-color: #555" />
+                </linearGradient>
+            </defs>
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" fill="url(#path-gradient)"></path>
+        </svg>
+        <div class="loader-wrap-heading">
+            <div class="load-logo cont mb-50">
+                <img src="./assets/image/Kaefin Logo 01.png" width="100%" height="50%" alt="Kaefin Logo">
+            </div>
+            <div class="load-text">
+                <span>K</span>
+                <span>A</span>
+                <span>E</span>
+                <span>F</span>
+                <span>I</span>
+                <span>N</span>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div id="scrollsmoother-container">
+        <!-- Start Top Navbar -->
+        <div class="tc-topNav-st2">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="welcome">Welcome To our Kaefin restaurant</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social-side justify-content-lg-end">
+                            <div class="social-links text-center text-lg-end">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-behance"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Top Navbar -->
+
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st2">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto sub-font">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <div class="menu-item">
+                        <a class="nav-link side_menu_btn" href="#">Menu</a>
+                    </div>
+                </div>
+                <a href="#" class="float-logo">
+                    <img src="./assets/image/Kaefin Logo 01.png" alt="Kaefin Logo" class="logo">
+                    <img src="./assets/image/logo_shap.png" alt="Logo Background" class="bg">
+                </a>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+
+          <!--  Start header  -->
+<header class="tc-inner-header-st1">
+  <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center text-white">
+    <div class="title">
+      <h2 class="fsz-50 mb-3"> Our Services</h2>
+      <div class="links">
+        <a href="index.html" class="text-white"> Home / </a>
+        <a href="#" class="text-white"> About Us </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--  End header  -->
+        <!-- Start Main Content -->
+        <main>
+            <!-- Start Services Section -->
+            <section class="tc-services-st2">
+                <div class="container">
+                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                        <div class="icon icon-50 mx-auto">
+                            <img src="./assets/image/fav.svg" alt="Kaefin Icon" class="img-contain">
+                        </div>
+                    </div>
+                    <div class="services-slider wow fadeInUp slow" data-wow-delay="0.4s">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="portfolio_single.html" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5">Fresh Brewed White Coffee</h6>
+                                    <div class="img">
+                                        <img src="./assets/image/services/1.jpg" alt="White Coffee" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16">Read More +</span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/ab1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5">Fresh Coffee Chocolate Flavor</h6>
+                                    <div class="img">
+                                        <img src="./assets/image/services/2.jpg" alt="Chocolate Coffee" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16">Read More +</span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5">Fresh Beans Top View Cup Coffee</h6>
+                                    <div class="img">
+                                        <img src="./assets/image/services/3.jpg" alt="Beans Coffee" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16">Read More +</span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr2.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5">Vertical Coffee with Waffles</h6>
+                                    <div class="img">
+                                        <img src="./assets/image/services/4.jpg" alt="Coffee with Waffles" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16">Read More +</span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr4.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Slider Controls -->
+            <div class="slider-controls df-center">
+                <div class="swiper-prev"><i class="fas fa-arrow-left"></i></div>
+                <div class="swiper-pagination swiper-pagination-light"></div>
+                <div class="swiper-next"><i class="fas fa-arrow-right"></i></div>
+            </div>
+                    </div>
+                </div>
+                <img src="./assets/image/vec2.svg" alt="Vector" class="vec2">
+            </section>
+            <!-- End Services Section -->
+
+            <!-- Start About Section -->
+            <section class="tc-about-st2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="imgs wow fadeInUp slow" data-wow-delay="0.2s">
+                                        <div class="img1">
+                                            <img src="./assets/image/ab1.jpg" alt="Coffee Shop" class="img-cover">
+                                        </div>
+                                        <div class="img2">
+                                            <img src="./assets/image/ab2.jpg" alt="Coffee Beans" class="img-cover">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="info wow fadeInUp slow" data-wow-delay="0.2s">
+                                        <h2 class="fsz-50 mb-20">Why Choose Kaefin?</h2>
+                                        <div class="text fsz-16">At Kaefin Coffee Shop, we source the finest beans and craft each cup with care. Our passion for coffee and dedication to quality make us Sydney’s favorite spot for a perfect brew.</div>
+                                        <ul class="icon-list">
+                                            <li><span class="icon"><img src="./assets/image/icons/ab1.svg" alt=""></span><span class="txt fsz-20 text-white">Premium Coffee Beans</span></li>
+                                            <li><span class="icon"><img src="./assets/image/icons/ab2.svg" alt=""></span><span class="txt fsz-20 text-white">Expert Baristas</span></li>
+                                            <li><span class="icon"><img src="./assets/image/icons/ab3.svg" alt=""></span><span class="txt fsz-20 text-white">Cozy Ambiance</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12">
+                                    <h2 class="visitors wow fadeInUp slow" data-wow-delay="0.2s"><span class="txt">Visitors</span> <span class="num">95k</span></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="video-side wow fadeInUp slow" data-wow-delay="0.2s">
+                                <a href="#" class="rotate-box" data-speed="1" data-lag="0.4">
+                                    <div class="rotate-circle fsz-30 rotate-text d-inline-block text-uppercase">
+                                        <svg class="textcircle" viewBox="0 0 500 500">
+                                            <defs>
+                                                <path id="textcircle" d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"></path>
+                                            </defs>
+                                            <text>
+                                                <textPath xlink:href="#textcircle" textLength="900">kaefin coffee shop house</textPath>
+                                            </text>
+                                        </svg>
+                                    </div>
+                                    <span class="icon"><img src="./assets/image/rotate_icon.svg" alt=""></span>
+                                </a>
+                                <div class="video-card">
+                                    <div class="img">
+                                        <img src="./assets/image/ab3.jpg" alt="Coffee Video" class="img-cover">
+                                    </div>
+                                    <a href="https://www.youtube.com/watch?v=qYgdnM3BC3g" class="play-btn" data-lity="video"><i class="fas fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </section>
+            <!-- End About Section -->
+
+            <!-- Start Why Choose Us Section -->
+            <section class="tc-bg-services-st2 pt-120">
+                <div class="container">
+                    <div class="section-head-st1 text-center col-lg-6 mx-auto mt-20 mb-50 wow fadeIn slow" data-wow-delay="0.2s">
+                        <div class="icon th-50 mb-20">
+                            <img src="./assets/image/vec2.svg" alt="Vector" class="img-contain">
+                        </div>
+                        <h2 class="fsz-50 mb-20">Why Choose Us</h2>
+                        <div class="text fsz-16">Proin at lorem justo. Sed maximus risus hendrerit ipsum sodales, vel consequat dui ultrices. Vestibulum ante ipsum primis in faucibus orci luctus.</div>
+                    </div>
+                    <div class="cards">
+                        <div class="row gx-0">
+                            <div class="col-lg-3">
+                                <a href="#" class="service-card" data-tab="tab-1">
+                                    <div class="icon">
+                                        <img src="./assets/image/icons/s1.svg" alt="Premium Beans Icon">
+                                    </div>
+                                    <h5 class="fsz-30 mb-20">Premium Beans</h5>
+                                    <div class="text fsz-16">We source only the finest coffee beans from sustainable farms worldwide.</div>
+                                    <span class="more-btn sub-font">See more</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="#" class="service-card" data-tab="tab-2">
+                                    <div class="icon">
+                                        <img src="./assets/image/icons/s2.svg" alt="Expert Baristas Icon">
+                                    </div>
+                                    <h5 class="fsz-30 mb-20">Expert Baristas</h5>
+                                    <div class="text fsz-16">Our skilled baristas craft each cup with precision and care.</div>
+                                    <span class="more-btn sub-font">See more</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="#" class="service-card" data-tab="tab-3">
+                                    <div class="icon">
+                                        <img src="./assets/image/icons/s3.svg" alt="Artisanal Drinks Icon">
+                                    </div>
+                                    <h5 class="fsz-30 mb-20">Artisanal Drinks</h5>
+                                    <div class="text fsz-16">Unique coffee blends and specialty drinks for every taste.</div>
+                                    <span class="more-btn sub-font">See more</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-3">
+                                <a href="#" class="service-card" data-tab="tab-4">
+                                    <div class="icon">
+                                        <img src="./assets/image/icons/s4.svg" alt="Cozy Ambiance Icon">
+                                    </div>
+                                    <h5 class="fsz-30 mb-20">Cozy Ambiance</h5>
+                                    <div class="text fsz-16">A warm and inviting atmosphere for a perfect coffee experience.</div>
+                                    <span class="more-btn sub-font">See more</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="glry-img">
+                    <img id="tab-1" src="./assets/image/ser_bg2.jpg" alt="Premium Beans" class="tab-img current">
+                    <img id="tab-2" src="./assets/image/ser_bg1.jpg" alt="Expert Baristas" class="tab-img">
+                    <img id="tab-3" src="./assets/image/ser_bg3.jpg" alt="Artisanal Drinks" class="tab-img">
+                    <img id="tab-4" src="./assets/image/ser_bg4.jpg" alt="Cozy Ambiance" class="tab-img">
+                </div>
+            </section>
+            <!-- End Why Choose Us Section -->
+
+            <!-- Start Testimonials Section -->
+            <section class="tc-testimonials-st2">
+                <div class="container wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title mb-40">
+                        <h2 class="col-lg-4 mx-auto"><img src="./assets/image/icons/qt.svg" alt="Quote Icon" class="icon">What Our Customers Say?</h2>
+                    </div>
+                    <div class="testimonials-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="info col-lg-8 mx-auto">
+                                    <div class="main-text">Kaefin’s coffee is the best I’ve ever tasted. The ambiance and service make every visit special.</div>
+                                    <div class="user-inf">
+                                        <div class="avatar">
+                                            <img src="./assets/image/avatar.jpg" alt="Customer" class="img-cover">
+                                        </div>
+                                        <div class="inf">
+                                            <h6 class="fsz-24 mb-2">Liam Olivia</h6>
+                                            <p class="cr-brown1">Coffee Enthusiast</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="info col-lg-8 mx-auto">
+                                    <div class="main-text">The baristas at Kaefin are true artists. Their attention to detail is unmatched!</div>
+                                    <div class="user-inf">
+                                        <div class="avatar">
+                                            <img src="./assets/image/team/2.jpg" alt="Customer" class="img-cover">
+                                        </div>
+                                        <div class="inf">
+                                            <h6 class="fsz-24 mb-2">Sophie Emma</h6>
+                                            <p class="cr-brown1">Regular Customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <img src="./assets/image/testi_bg.png" alt="Background" class="shaps">
+                <img src="./assets/image/testi_lines.png" alt="Lines" class="lines">
+            </section>
+            <!-- End Testimonials Section -->
+
+            <!-- Start Reservation Section -->
+            <section class="tc-reservation-st2">
+                <div class="container">
+                    <div class="reservation-card wow fadeIn slow" data-wow-delay="0.2s">
+                        <div class="title text-center">
+                            <h2 class="fsz-50 mb-20">Make a Reservation</h2>
+                            <div class="text fsz-16">Reserve a table at Kaefin Coffee Shop</div>
+                        </div>
+                        <form action="" class="form">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Full Name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="(+566 666 777 88 99)" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="16/03/2024" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <select name="" id="" class="form-control form-select">
+                                            <option value="">6.30 PM</option>
+                                            <option value="">7.30 PM</option>
+                                            <option value="">9.30 PM</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="form-group">
+                                        <select name="" id="" class="form-control form-select">
+                                            <option value="">1 Person</option>
+                                            <option value="">2 Persons</option>
+                                            <option value="">3 Persons</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <a href="#" class="butn bg-brown1 hover-bg-dark1 text-white rounded-pill size-1 mt-50"><span>Book a Table +</span></a>
+                            </div>
+                        </form>
+                        <img src="./assets/image/res_bg.png" alt="Background" class="bg">
+                    </div>
+                </div>
+            </section>
+            <!-- End Reservation Section -->
+        </main>
+        <!-- End Main Content -->
+
+        <!-- Start Footer -->
+        <footer class="tc-footer-st2">
+            <div class="footer-links">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Working Hours</h6>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li><a href="#"><span class="txt text-uppercase">SUNDAY TO TUESDAY</span><br><span>7.00am – 6.00pm</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li><a href="#"><span class="txt text-uppercase">FRIDAY TO SATURDAY</span><br><span>7.00am – 6.00pm</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Contact</h6>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li><a href="#">785 15h Street - Sydney Harbor Bridge, Sydney, Australia</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li><a href="#">info@kaefin.com</a></li>
+                                            <li><a href="#">+444 3322 111 00</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30 mt-5 mt-lg-0">Social</h6>
+                                <ul class="links">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">Pinterest</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </div>
+            <div class="foot-suscribe">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <a href="#" class="foot-logo th-50 mb-20">
+                                <img src="./assets/image/Kaefin Logo 2.png" alt="Kaefin Logo">
+                            </a>
+                            <p class="fsz-16 px-lg-5 mx-lg-5">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                            <div class="from-group">
+                                <input type="text" class="form-control" placeholder="Enter your email address...">
+                                <a href="#" class="butn bg-brown1 text-white rounded-pill size-1 hover-bg-dark1"><span>Subscribe Now +</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <p><a href="#" class="cr-brown1 mt-40">ThemesCamp</a>© 2024. All Rights Reserved.</p>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </div>
+            <img src="./assets/image/vec3.png" alt="Vector" class="shap">
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    <!-- JavaScript Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smokejs/3.1.1/js/smoke.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallaxie/0.5.0/parallaxie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
