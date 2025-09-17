@@ -3702,7 +3702,7 @@ input:focus {
 
 .tc-footer-st2 .footer-links {
     position: relative;
-    padding: 150px 0 75px;
+    padding: 60px 0 50px;
     background-color: #171717;
 }
 
@@ -3988,3 +3988,52 @@ input:focus {
 .tc-inner-header-st1 .links a:hover {
   color: #c49a6c; /* coffee-gold tone */
 }
+
+
+
+@media (max-width: 768px) {
+    
+.tc-navbar-st2 .nav-icons .menu-item .nav-link {
+    position: relative;
+    padding-top: 30px;
+    -webkit-padding-end: 60px;
+    padding-inline-end: 40px;
+    font-size: 0px;
+}
+}
+
+
+@media (max-width: 991px) {
+    /* Footer ka layout tablet & mobile ke liye */
+    .tc-footer-st2 .footer-links .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Contact aur Social ek ke niche ek */
+    .tc-footer-st2 .footer-links .col-lg-5,
+    .tc-footer-st2 .footer-links .col-lg-2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* Links center align */
+    .tc-footer-st2 .footer-links .links-group ul.links li a {
+        display: block;
+        text-align: center;
+    }
+
+    /* Subscribe section bhi center ho jaye */
+    .tc-footer-st2 .foot-suscribe .from-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tc-footer-st2 .foot-suscribe .from-group input.form-control {
+        margin-bottom: 10px;
+        max-width: 100%;
+    }
+}
+
+
+
