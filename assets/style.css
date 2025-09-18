@@ -4134,31 +4134,60 @@ input:focus {
 }
 
 
+/* About Parallax Section */
 .about-parallax-section {
     position: relative;
     padding: 100px 0;
     overflow: hidden;
+    color: #fff; /* Ensure text inside is always white */
 }
 
+/* Background Parallax */
 .about-parallax-section .parallax-bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./image/team/4.jpg'); /* Replace with your bg image */
-    background-size: cover;
-    background-position: center;
+    background: url('./image/Bg_1.jpeg') center center / cover no-repeat;
     background-attachment: fixed; /* Parallax effect */
     z-index: 0;
-    filter: brightness(0.5); /* Optional: dark overlay for contrast */
+    filter: brightness(0.5); /* Dark overlay for better text contrast */
 }
 
+/* Foreground Container */
 .about-parallax-section .container {
     position: relative;
     z-index: 2;
 }
 
-.about-parallax-section .text-white {
-    color: #fff;
+/* About Image */
+.about-image img {
+    width: 100%;
+    height: auto;
+    max-height: 80vh;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
+
+/* About Text Box */
+.about-text {
+    padding: 30px;
+    border-radius: 20px;
+    padding-top: 146px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .about-parallax-section {
+        padding: 60px 0;
+    }
+    .about-text {
+        padding: 20px;
+    }
+    .about-image img {
+        max-height: 50vh;
+    }
+}
+

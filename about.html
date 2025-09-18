@@ -230,23 +230,25 @@
 
         <!-- Start Main Content -->
         <main>
-            <!-- Start About Section -->
-            <section class="about-parallax-section position-relative text-white">
+            <!-- Start About -->
+            <section class="about-parallax-section position-relative text-white" style="min-height: 100vh;">
                 <div class="parallax-bg"></div> <!-- Fixed Background -->
 
-                <div class="container position-relative">
-                    <div class="row align-items-center">
-                        <!-- Left: Image -->
-                        <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="container position-relative h-100">
+                    <div class="row">
+
+                        <!-- Left: Image col-5 top aligned -->
+                        <div class="col-lg-5 d-flex align-items-start mb-4 mb-lg-0">
                             <div class="about-image wow fadeInUp slow" data-wow-delay="0.2s">
-                                <img src="./assets/image/ab1.jpg" alt="Cafe" class="img-cover rounded shadow-lg">
+                                <img src="./assets/image/ab1.jpg" alt="Cafe" class="img-cover rounded shadow-lg w-100"
+                                    style="max-height: 80vh; object-fit: cover;">
                             </div>
                         </div>
 
-                        <!-- Right: Text Content -->
-                        <div class="col-lg-6">
-                            <div class="about-text wow fadeInUp slow" data-wow-delay="0.2s"
-                                style="background: rgba(0, 0, 0, 0.6); padding: 30px; border-radius: 15px;">
+                        <!-- Right: Text Content col-7 vertically centered -->
+                        <div class="col-lg-7 d-flex align-items-center">
+                            <div class="about-text wow fadeInUp slow" data-wow-delay="0.2s">
+
                                 <h2 class="fsz-50 mb-20">Explore The History Of the Cafe</h2>
 
                                 <p class="fsz-16 mb-3">
@@ -287,11 +289,10 @@
                                     <span>➔</span></a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
-            <!-- End About Section -->
+            <!-- End About -->
 
 
             <!-- Start Testimonials Section -->
