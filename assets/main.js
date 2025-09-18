@@ -408,3 +408,24 @@ const swiper = new Swiper('.services-slider', {
   // ============ End services ===============//
 
   
+
+
+  // why-choose-us.js
+
+document.addEventListener("DOMContentLoaded", function () {
+  const cards = document.querySelectorAll(".service-card");
+  const images = document.querySelectorAll(".glry-img .tab-img");
+
+  cards.forEach(card => {
+    card.addEventListener("mouseenter", function () {
+      const tabId = this.getAttribute("data-tab");
+
+      // sabhi images ko hide karo
+      images.forEach(img => img.classList.remove("current"));
+
+      // sirf hovered card ka bg show karo
+      const activeImg = document.getElementById(tabId);
+      if (activeImg) activeImg.classList.add("current");
+    });
+  });
+});

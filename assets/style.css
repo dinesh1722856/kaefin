@@ -2518,7 +2518,7 @@ input:focus {
 .tc-topNav-st2 {
     position: relative;
     padding: 10px 4vw;
-   
+
 }
 
 .tc-topNav-st2 .welcome {
@@ -2563,8 +2563,8 @@ input:focus {
     position: relative;
     padding: 0 4vw;
     color: #b5b5b5;
-     border-bottom: 1px solid rgba(242, 238, 238, 0.386);
-      border-top: 1px solid rgba(242, 238, 238, 0.511);
+    border-bottom: 1px solid rgba(242, 238, 238, 0.386);
+    border-top: 1px solid rgba(242, 238, 238, 0.511);
 }
 
 .tc-navbar-st2 .float-logo {
@@ -3317,51 +3317,60 @@ input:focus {
 }
 
 .tc-team-st2 .team-card {
-    display: block;
     position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
 }
 
 .tc-team-st2 .team-card .img {
     position: relative;
-    overflow: hidden;
-    height: 500px;
 }
 
+.tc-team-st2 .team-card .img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Dark overlay on hover */
 .tc-team-st2 .team-card .img::after {
-    position: absolute;
     content: "";
-    left: 0;
+    position: absolute;
     top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--cr-dark1);
+    background: #000;
     opacity: 0;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    border-radius: 10px;
+    transition: all 0.5s ease;
 }
 
+/* Info text hidden initially */
 .tc-team-st2 .team-card .info {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, 0%);
-    transform: translate(-50%, 0%);
-    z-index: 20;
+    transform: translate(-50%, 20%);
     text-align: center;
     opacity: 0;
-    -webkit-transition: all 0.5s ease;
+    color: #fff;
     transition: all 0.5s ease;
+    z-index: 2;
 }
 
+/* Hover Effects */
 .tc-team-st2 .team-card:hover .img::after {
     opacity: 0.6;
 }
 
 .tc-team-st2 .team-card:hover .info {
     opacity: 1;
-    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
 
 @media screen and (max-width: 991px) {
     .tc-team-st2 .team-card .img {
@@ -3663,7 +3672,7 @@ input:focus {
 .tc-footer-st2 .foot-suscribe .from-group .butn {
     position: absolute;
     right: 0;
-    top: 0;
+    top: 5px;
     height: 100%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -3821,7 +3830,7 @@ input:focus {
 } */
 
 .home-st2 .slider-controls {
-    padding:20px 0;
+    padding: 20px 0;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -3904,40 +3913,43 @@ input:focus {
 
 
 /*----------------- Manu Lists Start---------- */
- .text-brown {
-  color: #8B4513 !important; /* Coffee Brown */
+.text-brown {
+    color: #8B4513 !important;
+    /* Coffee Brown */
 }
 
 /* -----------Manu List End */
 .read-more-unique {
-  font-weight: 700;
-  font-size: 16px;
-  background: linear-gradient(45deg, #8B4513, #D2691E);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  letter-spacing: 1px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.4s ease;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(45deg, #8B4513, #D2691E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .read-more-unique::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(45deg, #8B4513, #D2691E);
-  transition: width 0.4s ease;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(45deg, #8B4513, #D2691E);
+    transition: width 0.4s ease;
 }
 
 .read-more-unique:hover {
-  transform: scale(1.1); /* थोड़ा zoom */
+    transform: scale(1.1);
+    /* थोड़ा zoom */
 }
 
 .read-more-unique:hover::after {
-  width: 100%; /* underline animate होगी */
+    width: 100%;
+    /* underline animate होगी */
 }
 
 
@@ -3946,64 +3958,71 @@ input:focus {
 
 /*------- About Header Css------ */
 .tc-inner-header-st1 {
-  height: 50vh; /* 50% viewport height */
-  background: url('./image/cup-coffee.webp') no-repeat center center / cover;
-  position: relative;
+    height: 50vh;
+    /* 50% viewport height */
+    background: url('./image/cup-coffee.webp') no-repeat center center / cover;
+    position: relative;
 }
 
 .tc-inner-header-st1::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* dark overlay for text readability */
-  z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* dark overlay for text readability */
+    z-index: 1;
 }
 
 .tc-inner-header-st1 .container {
-  position: relative;
-  z-index: 2; /* overlay ke upar text rahe */
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+    position: relative;
+    z-index: 2;
+    /* overlay ke upar text rahe */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .tc-inner-header-st1 h2 {
-  font-size: 50px;
-  font-weight: bold;
-  color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
 }
 
 .tc-inner-header-st1 .links a {
-  font-size: 16px;
-  margin: 0 5px;
-  text-decoration: none;
-  color: #fff;
-  transition: color 0.3s;
+    font-size: 16px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
 }
 
 .tc-inner-header-st1 .links a:hover {
-  color: #c49a6c; /* coffee-gold tone */
+    color: #c49a6c;
+    /* coffee-gold tone */
 }
 
 
 
 @media (max-width: 768px) {
-    
-.tc-navbar-st2 .nav-icons .menu-item .nav-link {
-    position: relative;
-    padding-top: 30px;
-    -webkit-padding-end: 60px;
-    padding-inline-end: 40px;
-    font-size: 0px;
-}
+
+    .tc-navbar-st2 .nav-icons .menu-item .nav-link {
+        position: relative;
+        padding-top: 30px;
+        -webkit-padding-end: 60px;
+        padding-inline-end: 40px;
+        font-size: 0px;
+    }
 }
 
 
 @media (max-width: 991px) {
+
     /* Footer ka layout tablet & mobile ke liye */
     .tc-footer-st2 .footer-links .row {
         flex-direction: column;
@@ -4035,7 +4054,111 @@ input:focus {
     }
 }
 
+/* Section Background Styling */
+.tc-bg-services-st2 {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 46px;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Background Images */
+.tc-bg-services-st2 .glry-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.tc-bg-services-st2 .glry-img .tab-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.tc-bg-services-st2 .glry-img .tab-img.current {
+    opacity: 1;
+}
+
+/* Service Cards */
+.tc-bg-services-st2 .service-card {
+    display: block;
+    background: rgba(0, 0, 0, 0.55);
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+    color: #fff;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.tc-bg-services-st2 .service-card:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.tc-bg-services-st2 .service-card .icon img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+    transition: transform 0.4s ease;
+}
+
+.tc-bg-services-st2 .service-card:hover .icon img {
+    transform: scale(1.15) rotate(8deg);
+}
+
+.tc-bg-services-st2 .more-btn {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s ease;
+}
+
+.tc-bg-services-st2 .service-card:hover .more-btn {
+    color: #f1c40f;
+    border-color: #f1c40f;
+}
 
 
+.about-parallax-section {
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+}
 
+.about-parallax-section .parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./image/team/4.jpg'); /* Replace with your bg image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    z-index: 0;
+    filter: brightness(0.5); /* Optional: dark overlay for contrast */
+}
 
+.about-parallax-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.about-parallax-section .text-white {
+    color: #fff;
+}
