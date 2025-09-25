@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="HTML5 Template Artech Multi-Purpose themeforest">
+    <meta name="description" content="Artech - Multi-Purpose HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>Kaefin | Our Menu </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/image/fav.png" title="Favicon" sizes="16x16">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    <!-- Lity -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- ✅ Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ✅ Swiper 8 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!-- home style -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <script>
+        window.ga = window.ga || function () {
+            (ga.q = ga.q || []).push(arguments)
+        };
+        ga.l = +new Date;
+        ga('create', 'UA-105392568-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body class="home-st2">
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <!-- <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" width="100%" height="100%">
+            <defs>
+                <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color: #e3d0bc" />
+                    <stop offset="100%" style="stop-color: #4a1905fd" />
+                </linearGradient>
+            </defs>
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" fill="url(#path-gradient)"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-logo cont mb-50">
+                <img src="./assets/image/Kaefin Logo 01.png" width="100%" height="50%" alt="" class="">
+            </div>
+            <div class="load-text">
+                <span>K</span>
+                <span>A</span>
+                <span>E</span>
+                <span>F</span>
+                <span>I</span>
+                <span>N</span>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- ✅ Start Fixed Menu -->
+    <div class="fixed-menu">
+
+        <!-- Food Image Slider -->
+        <div class="food-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/1.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/2.png" alt="Pepsi">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/3.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/4.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/2.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Food Text Slider -->
+        <div class="food-text-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Pepsi</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Extra UI -->
+        <div class="circle"></div>
+        <span class="clss"><i class="fas fa-times-circle"></i></span>
+
+    </div>
+    <!-- ✅ End Fixed Menu -->
+    <div id="scrollsmoother-container">
+
+
+        <!--  Start navbar  -->
+        <div class="tc-topNav-st2">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="welcome"> Welcome To our Kaefin restaurant </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social-side justify-content-lg-end">
+                            <div class="social-links text-center text-lg-end">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-behance"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------- -->
+        <!--  Start navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st2">
+            <div class="container-fluid">
+                <!-- Toggle button for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" style="border-color:#4A1E0D;">
+
+                    <!-- Inline Hamburger Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <path stroke="#4A1E0D" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                            d="M4 7h22M4 15h22M4 23h22" />
+                    </svg>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto sub-font">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogs.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right side menu button -->
+                <div class="nav-icons">
+                    <div class="menu-item">
+                        <a class="nav-link side_menu_btn" href="#">Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating Logo -->
+            <a href="#" class="float-logo">
+                <img src="./assets/image/Kaefin Logo 01.png" alt="Logo" class="logo">
+                <img src="./assets/image/logo_shap.png" alt="Logo Background" class="bg">
+            </a>
+        </nav>
+        <!--  End navbar  -->
+
+        <!-- Menu Section with Accordion -->
+        <section class="menu-section">
+            <div class="container">
+                <h2 class="text-center mb-5">KAEFIN MENU</h2>
+
+                <!-- Menu Story -->
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                        <div class="menu-story">
+                            <p>Three brothers, united by their passion for coffee, started Kaefin with a simple dream -
+                                to create a space where every cup tells a story. From our hand-selected beans roasted
+                                daily to the warmth of our crafted beverages, every element reflects our commitment to
+                                quality and tradition. Join us on this aromatic journey where every sip is an
+                                experience, and every visit feels like coming home.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Left Column -->
+                    <div class="col-12 col-lg-6 menu-column">
+                        <!-- Espresso Bar (Hot) -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header active" data-target="espresso-hot">
+                                <i class="fas fa-coffee"></i> Espresso Bar (Hot)
+                            </button>
+                            <div class="menu-accordion-body show" id="espresso-hot">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">ESPRESSO</li>
+                                    <li class="menu-item">AMERICANO</li>
+                                    <li class="menu-item">CAPPUCCINO</li>
+                                    <li class="menu-item">ROSE CAPPUCCINO</li>
+                                    <li class="menu-item">CAFE LATTE</li>
+                                    <li class="menu-item">NUTELLA LATTE</li>
+                                    <li class="menu-item">BISCOFF LATTE</li>
+                                    <li class="menu-item">HAZELNUT LATTE</li>
+                                    <li class="menu-item">CAFE MOCHA</li>
+                                    <li class="menu-item">WHITE MOCHA</li>
+                                    <li class="menu-item">FLAT WHITE</li>
+                                    <li class="menu-item">CORTADO</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Espresso Bar (Cold) -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="espresso-cold">
+                                <i class="fas fa-snowflake"></i> Espresso Bar (Cold)
+                            </button>
+                            <div class="menu-accordion-body" id="espresso-cold">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">ICED AMERICANO</li>
+                                    <li class="menu-item">ICED LATTE</li>
+                                    <li class="menu-item">COFFEE TONIC</li>
+                                    <li class="menu-item">CRANBERRY WITH COFFEE TONIC</li>
+                                    <li class="menu-item">COLD SPANISH LATTE</li>
+                                    <li class="menu-item">VIETNAMESE STYLED COLD COFFEE</li>
+                                    <li class="menu-item">COCONUT CLOUD COFFEE</li>
+                                    <li class="menu-item">SUNRISE COFFEE</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Alternate Milk Options -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="milk-options">
+                                <i class="fas fa-seedling"></i> Alternate Milk Options
+                            </button>
+                            <div class="menu-accordion-body" id="milk-options">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">OATS</li>
+                                    <li class="menu-item">ALMOND</li>
+                                    <li class="menu-item">SOYA MILK</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Cold Brew -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="cold-brew">
+                                <i class="fas fa-wind"></i> Cold Brew
+                            </button>
+                            <div class="menu-accordion-body" id="cold-brew">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">RUM BARREL COLD BREW</li>
+                                    <li class="menu-item">WHISKY BARREL COLD BREW</li>
+                                    <li class="menu-item">COLD BREW (Brewed for 20 Hrs)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Frappes & Affogato -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="frappes">
+                                <i class="fas fa-blender"></i> Frappes & Affogato
+                            </button>
+                            <div class="menu-accordion-body" id="frappes">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">CLASSIC FRAPPE</li>
+                                    <li class="menu-item">HAZELNUT NUTELLA FRAPPE</li>
+                                    <li class="menu-item">CHOCOLATE FRAPPE</li>
+                                    <li class="menu-item">MOCHA FRAPPE</li>
+                                    <li class="menu-item">VANILLA</li>
+                                    <li class="menu-item">SALTED CARAMEL AFFOGATO</li>
+                                    <li class="menu-item">CHOCOLATE AFFOGATO</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Add Ons -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="add-ons">
+                                <i class="fas fa-plus-circle"></i> Add Ons
+                            </button>
+                            <div class="menu-accordion-body" id="add-ons">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">EXTRA ESPRESSO SHOT</li>
+                                    <li class="menu-item">FLAVOURS (VANILLA/CARAMEL/HAZELNUT/IRISH/CINNAMON)</li>
+                                    <li class="menu-item">MATCHA SHOT</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="col-12 col-lg-6 menu-column">
+                        <!-- Manual Brews (Hot) -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="manual-hot">
+                                <i class="fas fa-fire"></i> Manual Brews (Hot)
+                            </button>
+                            <div class="menu-accordion-body" id="manual-hot">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">POUR OVER V(60)</li>
+                                    <li class="menu-item">AEROPRESS</li>
+                                    <li class="menu-item">MOKA POT</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Manual Brews (Cold) -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="manual-cold">
+                                <i class="fas fa-snowflake"></i> Manual Brews (Cold)
+                            </button>
+                            <div class="menu-accordion-body" id="manual-cold">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">POUR OVER V(60)</li>
+                                    <li class="menu-item">FRENCH PRESS</li>
+                                    <li class="menu-item">SYPHON</li>
+                                    <li class="menu-item">AEROPRESS</li>
+                                    <li class="menu-item">MOKA POT</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Fresh Juices -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="juices">
+                                <i class="fas fa-lemon"></i> Fresh Juices (Cold Pressed)
+                            </button>
+                            <div class="menu-accordion-body" id="juices">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">ORANGE JUICE</li>
+                                    <li class="menu-item">WATERMELON JUICE</li>
+                                    <li class="menu-item">PINEAPPLE JUICE</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Shakes & Hot Chocolate -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="shakes">
+                                <i class="fas fa-mug-hot"></i> Shakes & Hot Chocolate
+                            </button>
+                            <div class="menu-accordion-body" id="shakes">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">HOT CHOCOLATE</li>
+                                    <li class="menu-item">BELGIAN CHOCOLATE SHAKE</li>
+                                    <li class="menu-item">VANILLA CHOCOLATE SHAKE</li>
+                                    <li class="menu-item">KITKAT SHAKE</li>
+                                    <li class="menu-item">BLUEBERRY SHAKE</li>
+                                    <li class="menu-item">BROWNIE SHAKE</li>
+                                    <li class="menu-item">NUTELLA SHAKE</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Non-Caffeinated Matcha -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="matcha">
+                                <i class="fas fa-leaf"></i> Non-Caffeinated Matcha
+                            </button>
+                            <div class="menu-accordion-body" id="matcha">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">HAR DIN MATCHA</li>
+                                    <li class="menu-item">STRAWBERRY MATCHA</li>
+                                    <li class="menu-item">COCONUT MATCHA</li>
+                                    <li class="menu-item">OAT STANDING MATCHA</li>
+                                    <li class="menu-item">TONIC MATCHA</li>
+                                    <li class="menu-item">BLUEBERRY TONIC MATCHA</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Mocktails & Teas -->
+                        <div class="menu-accordion">
+                            <button class="menu-accordion-header" data-target="mocktails">
+                                <i class="fas fa-cocktail"></i> Mocktails & Teas
+                            </button>
+                            <div class="menu-accordion-body" id="mocktails">
+                                <ul class="list-unstyled">
+                                    <li class="menu-item">VIRGIN MOJITO</li>
+                                    <li class="menu-item">STRAWBERRY MOJITO</li>
+                                    <li class="menu-item">LEMON BASIL MOJITO</li>
+                                    <li class="menu-item">MASALA LEMONADE</li>
+                                    <li class="menu-item">WATERMELON MOJITO</li>
+                                    <li class="menu-item">LEMON ICED TEA</li>
+                                    <li class="menu-item">BIG BULL ICE TEA</li>
+                                    <li class="menu-item">CRANBERRY ICE TEA</li>
+                                    <li class="menu-item">MASALA GINGER TEA (MILK BASE)</li>
+                                    <li class="menu-item">MASALA TEA WITH MILK (MILK BASE)</li>
+                                    <li class="menu-item">GREEN TEA</li>
+                                    <li class="menu-item">ENGLISH TEA</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--  Start footer  -->
+        <footer class="tc-footer-st2">
+            <div class="footer-links">
+                <div class="container">
+                    <div class="row text-center text-lg-start">
+                        <!-- Working Hours -->
+                        <div class="col-lg-5 mb-4">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30"> Working Hours </h6>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="bi bi-clock me-2"></i>
+                                                    <span class="txt text-uppercase"> SUNDAY TO TUESDAY </span> <br>
+                                                    <span> 7.00am – 6.00pm </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="bi bi-clock me-2"></i>
+                                                    <span class="txt text-uppercase"> FRIDAY TO SATURDAY </span>
+                                                    <br>
+                                                    <span> 7.00am – 6.00pm </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact -->
+                        <div class="col-lg-5 mb-4">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30"> Contact </h6>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="bi bi-geo-alt me-2"></i>
+                                                    785 15h Street - Sydney Harbor Bridge, #Australia.
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <ul class="links">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="bi bi-envelope me-2"></i>
+                                                    info.restfolio@gmail.com
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="bi bi-telephone me-2"></i>
+                                                    +444 3322 111 00
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="col-lg-2 mb-4">
+                            <div class="links-group">
+                                <h6 class="fsz-20 mb-30"> Social </h6>
+                                <ul class="links">
+                                    <li><a href="#"><i class="bi bi-facebook me-2"></i> Facebook</a></li>
+                                    <li><a href="#"><i class="bi bi-instagram me-2"></i> Instagram</a></li>
+                                    <li><a href="#"><i class="bi bi-pinterest me-2"></i> Pinterest</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </div>
+
+            <!-- Information Section -->
+            <div class="foot-suscribe text-center">
+                <div class="container">
+                    <a href="#" class="foot-logo th-50 mb-20 d-inline-block">
+                        <img src="./assets/image/Kaefin Logo 01.png" alt="">
+                    </a>
+                    <p class="fsz-16 px-lg-5 mx-lg-5" style="color:#4A1E0D"> Pellentesque habitant morbi tristique
+                        senectus et netus
+                        et malesuada fames ac turpis egestas. Duis vel metus sit amet dolor finibus convallis.
+                    </p>
+
+                    <p class="mt-3"> <a href="#" class="cr-brown1"> ThemesCamp </a>© 2024. All Rights Reserved. </p>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </div>
+
+            <img src="./assets/image/vec3.png" alt="" class="shap">
+        </footer>
+        <!--  End footer  -->
+
+        <!--  Start to top button  -->
+        <!-- <a href="#" class="to_top" id="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a> -->
+        <!--  End to top button  -->
+
+        <!--  request  -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+        <script>
+            VANTA.FOG({
+                el: "#smoke-bg",
+                mouseControls: true,  // 👈 Mouse movement enable
+                touchControls: true,  // 👈 Touchscreen control enable
+                highlightColor: 0xffffff,
+                midtoneColor: 0xaaaaaa,
+                lowlightColor: 0x000000,
+                baseColor: 0x000000,
+                blurFactor: 0.5,
+                speed: 1.5,
+                zoom: 1.00
+            })
+        </script>
+
+        <!-- ✅ jQuery Migrate -->
+        <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- ✅ WOW.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+        <!-- ✅ Fancybox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+        <!-- ✅ Lity -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+
+        <!-- ✅ Swiper 8 -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- ✅ Waypoints -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+        <!-- ✅ CounterUp -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+
+        <!-- ✅ Parallaxie -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallaxie/0.5.0/parallaxie.min.js"></script>
+
+        <!-- ✅ GSAP Core -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+        <!-- ✅ GSAP Plugins -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+        <!-- ⚠ ScrollSmoother & SplitText (GSAP Club Plugins, free CDN nahi milte) -->
+
+
+        <!-- === main === -->
+        <script src="./assets/main.js"></script>
+
+
+
+</body>
+
+
+<!-- Mirrored from uithemez.com/i/restfolio/home2_coffee_shop/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 03 Jul 2024 07:18:39 GMT -->
+
+</html>

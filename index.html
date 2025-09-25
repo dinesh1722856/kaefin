@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="HTML5 Template Artech Multi-Purpose themeforest">
+    <meta name="description" content="Artech - Multi-Purpose HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>Kaefin | Coffee Shop</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/image/fav.png" title="Favicon" sizes="16x16">
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    <!-- Lity -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <!-- ✅ Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ✅ Swiper 8 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+    <!-- home style -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+
+</head>
+
+<body class="home-st2">
+
+    <canvas class="banner_canvas" id="canvas_banner"></canvas>
+
+    <!-- ====== Start Loading ====== -->
+
+    <!-- <div class="loader-wrap">
+        <svg viewBox="0 0 1000 1000" preserveAspectRatio="none" width="100%" height="100%">
+            <defs>
+                <linearGradient id="path-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color: #e3d0bc" />
+                    <stop offset="100%" style="stop-color: #4a1905fd" />
+                </linearGradient>
+            </defs>
+            <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z" fill="url(#path-gradient)"></path>
+        </svg>
+
+        <div class="loader-wrap-heading">
+            <div class="load-logo cont mb-50">
+                <img src="./assets/image/Kaefin Logo 01.png" width="100%" height="50%" alt="" class="">
+            </div>
+            <div class="load-text">
+                <span>K</span>
+                <span>A</span>
+                <span>E</span>
+                <span>F</span>
+                <span>I</span>
+                <span>N</span>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- ✅ Start Fixed Menu -->
+    <div class="fixed-menu">
+
+        <!-- Food Image Slider -->
+        <div class="food-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/1.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/2.png" alt="Pepsi">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/3.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/4.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#" class="dish-card">
+                        <div class="img">
+                            <img src="./assets/image/menu_dishes/2.png" alt="Coffee">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Food Text Slider -->
+        <div class="food-text-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Pepsi</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="text-card">
+                        <h2>Coffee</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- Extra UI -->
+        <div class="circle"></div>
+        <span class="clss"><i class="fas fa-times-circle"></i></span>
+
+    </div>
+    <!-- ✅ End Fixed Menu -->
+    <div id="scrollsmoother-container">
+
+
+        <!--  Start navbar  -->
+        <div class="tc-topNav-st2">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <p class="welcome"> Welcome To our Kaefin restaurant </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="social-side justify-content-lg-end">
+                            <div class="social-links text-center text-lg-end">
+                                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                                <a href="#"> <i class="fab fa-x-twitter"></i> </a>
+                                <a href="#"> <i class="fab fa-instagram"></i> </a>
+                                <a href="#"> <i class="fab fa-behance"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------- -->
+        <!--  Start navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark tc-navbar-st2">
+            <div class="container-fluid">
+                <!-- Toggle button for mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation" style="border-color:#4A1E0D;">
+
+                    <!-- Inline Hamburger Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                        <path stroke="#4A1E0D" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10"
+                            d="M4 7h22M4 15h22M4 23h22" />
+                    </svg>
+                </button>
+
+                <!-- Navbar Links -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto sub-font">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogs.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Right side menu button -->
+                <div class="nav-icons">
+                    <div class="menu-item">
+                        <a class="nav-link side_menu_btn" href="#">Menu</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating Logo -->
+            <a href="#" class="float-logo">
+                <img src="./assets/image/Kaefin Logo 01.png" alt="Logo" class="logo">
+                <img src="./assets/image/logo_shap.png" alt="Logo Background" class="bg">
+            </a>
+        </nav>
+        <!--  End navbar  -->
+
+        <!--  Start hero Section  -->
+        <div class="tc-header-st2">
+            <div class="header-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="img">
+                                <img src="./assets/image/ser_bg1.jpg" width="100%" alt="" class="img-cover">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider-card">
+                            <div class="img">
+                                <img src="./assets/image/ser_bg1.jpg" width="100%" alt="" class="img-cover">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next hero-slider-btn"></div>
+                <div class="swiper-button-prev hero-slider-btn"></div>
+            </div>
+            <!----------- End hero Section --------->
+
+            <!--Contents-->
+
+            <!-- Start About -->
+            <section class="about-parallax-section text-white">
+                <div class="parallax-bg"></div> <!-- Fixed Background -->
+
+                <div class="container ">
+                    <div class="row">
+
+                        <!-- Left: Image col-5 top aligned -->
+                        <div class="col-lg-5 d-flex align-items-start mb-4 mb-lg-0">
+                            <div class="about-image wow fadeInUp slow sticky-top" data-wow-delay="0.2s">
+                                <img src="./assets/image/kaffen.webp" alt="Cafe"
+                                    class="img-fluid rounded shadow-lg w-100 h-auto">
+                            </div>
+                        </div>
+
+
+                        <!-- Right: Text Content col-7 vertically centered -->
+                        <div class="col-lg-7 d-flex align-items-center">
+                            <div class="about-text wow fadeInUp slow" data-wow-delay="0.2s">
+
+                                <h2 class="fsz-50 mb-20">Explore The History Of the Cafe</h2>
+
+                                <p class="fsz-16 mb-3">
+                                    Three brothers. Three different worlds. One shared love for coffee. Each of us began
+                                    our journey in a different way—
+                                </p>
+
+                                <p class="fsz-16 mb-3">
+                                    One grew up exploring the origins of coffee, learning about beans, farms, and
+                                    roasts. Another traveled across cities, studying flavors and techniques, discovering
+                                    how a cup can tell a story. The third immersed himself in creativity and culture,
+                                    seeing coffee as a bridge between people and ideas.
+                                </p>
+
+                                <p class="fsz-16 mb-3">
+                                    Though our paths were different, we always came back to the same table—together,
+                                    with coffee at the center. From countless conversations, experiments, and late-night
+                                    brews, KAEFIN was born.
+                                </p>
+
+                                <p class="fsz-16 mb-3">
+                                    Not just another coffee brand, but a promise: to bring something new to the market
+                                    while respecting the roots of coffee. At KAEFIN, every sip is more than just
+                                    caffeine—it’s heritage, craft, and innovation poured into your cup.
+                                </p>
+
+                                <p class="fsz-16 mb-3">
+                                    Our menu reflects our story: classic brews for tradition, bold creations for
+                                    adventure, and signature drinks that surprise your taste buds. We’re not just
+                                    serving coffee—we’re sharing our journey, one cup at a time.
+                                </p>
+
+                                <p class="fsz-16">
+                                    Welcome to KAEFIN. Where three brothers’ passion becomes your perfect brew.
+                                </p>
+
+                                <a href="#" class="btn bg-brown1 text-white rounded-pill mt-4">Discover More
+                                    <span>➔</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About -->
+
+            <section class="features-section py-5">
+                <div class="container">
+                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                        <h2 class="fsz-50 mb-20">
+                            Services We Provide
+                        </h2>
+                        <div class="icon icon-50 mx-auto">
+                            <img src="./assets/image/fav.svg" alt="" class="img-contain">
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center">
+
+                        <!-- Feature 1 -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-clock"></i>
+                                </div>
+                                <h6 class="feature-title">24x7 OPEN</h6>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-truck"></i>
+                                </div>
+                                <h6 class="feature-title">HOME DELIVERY</h6>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-book"></i>
+                                </div>
+                                <h6 class="feature-title">BOOKS CORNER</h6>
+                            </div>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-bag"></i>
+                                </div>
+                                <h6 class="feature-title">TAKE AWAY</h6>
+                            </div>
+                        </div>
+
+                        <!-- Feature 5 (Pre-Order) -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-box-seam"></i>
+                                </div>
+                                <h6 class="feature-title">PRE-ORDER</h6>
+                            </div>
+                        </div>
+
+                        <!-- Feature 6 (Table Reservation) -->
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <div class="feature-card">
+                                <div class="icon-wrap mb-3">
+                                    <i class="bi bi-calendar-check"></i>
+                                </div>
+                                <h6 class="feature-title">TABLE RESERVATION</h6>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ////////  Photography Category start //////// -->
+
+
+
+
+
+
+
+
+
+
+            <!-- ////////  Photography Category end //////// -->
+
+
+
+
+            <!--  Start Services  -->
+            <section class="tc-services-st2">
+                <div class="container">
+                    <div class="title text-center col-lg-7 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                        <h2 class="fsz-50 mb-20">
+                            Coffee So Very Good Even your alarm Clock will Smile. View Services
+                        </h2>
+                        <div class="icon icon-50 mx-auto">
+                            <img src="./assets/image/fav.svg" alt="" class="img-contain">
+                        </div>
+                    </div>
+
+                    <!-- Desktop/Tablet Slider -->
+                    <div class="swiper customSwiper d-none d-md-block">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="espressobar.html" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5"> ESPRESSO BAR (HOT)/(COLD) </h6>
+                                    <div class="img">
+                                        <img src="./assets/image/ESPRESSO BAR (HOT)_(COLD).webp" alt=""
+                                            class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16"> Read More + </span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/ab1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <!-- Slide 2 -->
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5"> ALTERNATE MILK (PRESSED) </h6>
+                                    <div class="img">
+                                        <img src="./assets/image/ALTERNATE MILK.webp" alt="" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16"> Read More + </span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr1.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Slide 3 -->
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5"> FRAPPA & AFFOGATO </h6>
+                                    <div class="img">
+                                        <img src="./assets/image/coffee1.webp" alt="Cafe Dalgona" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16"> Read More + </span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr2.svg" alt="icon">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+
+                            <!-- Slide 4 -->
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5"> MANUAL BREWS (HOT)/(COLD) </h6>
+                                    <div class="img">
+                                        <img src="./assets/image/6a.webp" alt="" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16"> Read More + </span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr4.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Slide 5 -->
+                            <div class="swiper-slide">
+                                <a href="#" class="service-card">
+                                    <h6 class="fsz-24 lh-5 pe-lg-5"> FRESH JUICES (PRESSED) </h6>
+                                    <div class="img">
+                                        <img src="./assets/image/Healthy Juice.webp" alt="" class="img-cover">
+                                    </div>
+                                    <div class="more-wrapper">
+                                        <span class="fsz-16"> Read More + </span>
+                                        <div class="icon icon-50">
+                                            <img src="./assets/image/icons/sr4.svg" alt="">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Mobile Grid -->
+                    <div class="row g-4 d-block d-md-none">
+                        <!-- Service Item 1 -->
+                        <div class="col-12">
+                            <a href="#" class="service-card">
+                                <div class="img">
+                                    <img src="./assets/image/ESPRESSO BAR (HOT)_(COLD).webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-24 lh-5 text-brown"> ESPRESSO BAR (HOT)/(COLD) </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/ab1.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Service Item 2 -->
+                        <div class="col-12">
+                            <a href="#" class="service-card">
+                                <div class="img">
+                                    <img src="./assets/image/ALTERNATE MILK.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-24 lh-5 text-brown"> ALTERNATE MILK (PRESSED) </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr1.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Service Item 3 -->
+                        <div class="col-12">
+                            <a href="#" class="service-card">
+                                <div class="img">
+                                    <img src="./assets/image/Frappuccino.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-24 lh-5 text-brown"> FRAPPA & AFFOGATO </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr2.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Service Item 4 -->
+                        <div class="col-12">
+                            <a href="#" class="service-card">
+                                <div class="img">
+                                    <img src="./assets/image/6a.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-24 lh-5 text-brown"> MANUAL BREWS (HOT)/(COLD) </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Service Item 5 -->
+                        <div class="col-12">
+                            <a href="#" class="service-card">
+                                <div class="img">
+                                    <img src="./assets/image/Healthy Juice.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-24 lh-5 text-brown"> FRESH JUICES (PRESSED) </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="./assets/image/vec2.svg" alt="" class="vec2">
+            </section>
+            <!--  End Services  -->
+
+
+
+
+
+
+            <!--  Start clients  -->
+            <!-- <section class="tc-clients-st2">
+                <div class="title wow fadeIn slow" data-wow-delay="0.2s">
+                    <span class="txt"> 5520k+ Our Clients </span>
+                </div>
+                <div class="logos">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="0.2s">
+                                    <img src="./assets/image/clients/1.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="0.4s">
+                                    <img src="./assets/image/clients/2.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="0.6s">
+                                    <img src="./assets/image/clients/3.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="0.8s">
+                                    <img src="./assets/image/clients/4.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="1s">
+                                    <img src="./assets/image/clients/5.png" alt="">
+                                </a>
+                            </div>
+                            <div class="col-lg-2 col-6">
+                                <a href="#" class="brand wow fadeInUp slow" data-wow-delay="1.2s">
+                                    <img src="./assets/image/clients/6.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lines"><span></span><span></span><span></span><span></span></div>
+            </section> -->
+            <!--  End clients  -->
+
+
+            <!--  Start Menu  -->
+            <section class="tc-services-st2">
+                <div class="container">
+                    <div class="title text-center col-lg-7 mx-auto mb-5">
+                        <h2 class="fsz-50 mb-20"> Discover Our Coffee & Snacks Menu </h2>
+                        <div class="icon icon-50 mx-auto">
+                            <img src="./assets/image/fav.svg" alt="" class="img-contain">
+                        </div>
+                    </div>
+
+                    <!-- Menu Grid -->
+                    <div class="row g-4">
+                        <!-- Menu Item 1 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/1a.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Fresh Brewed With White Coffee </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr2.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 2 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/services/2.jpg" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Fresh Coffee Chocolate Flavor </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr1.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 3 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/services/3.jpg" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Fresh Beans Top View Cup Coffee </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr2.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 4 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/services/4.jpg" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Vertical of Hot Coffee with Waffles </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        <!-- Menu Item 5 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/services/1.jpg" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Vertical of Hot Coffee with Waffles </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 6 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/hero2.jpg" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Vertical of Hot Coffee with Waffles </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 7 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/2a.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Vertical of Hot Coffee with Waffles </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu Item 8 -->
+                        <div class="col-md-6 col-lg-3">
+                            <a href="#" class="service-card bg-card"
+                                style="background-image: url('./assets/image/manucardbg.jpeg');">
+                                <div class="img">
+                                    <img src="./assets/image/10a.webp" alt="" class="img-cover">
+                                </div>
+                                <h6 class="fsz-21 lh-5 text-brown"> Vertical of Hot Coffee with Waffles </h6>
+                                <div class="more-wrapper">
+                                    <span class="fsz-16 read-more-unique"> Read More + </span>
+                                    <div class="icon icon-50">
+                                        <img src="./assets/image/icons/sr4.svg" alt="">
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <img src="./assets/image/vec2.svg" alt="" class="vec2">
+            </section>
+            <!--  End Menu  -->
+
+
+
+
+            <!--  Start testimonials  -->
+            <section class="tc-testimonials-st2">
+                <div class="container wow fadeInUp slow" data-wow-delay="0.2s">
+                    <div class="title mb-40">
+                        <h2 class="col-lg-4 mx-auto" style="color:#EBD0BC"> <img src="./assets/image/icons/qt.svg"
+                                alt="" class="icon"> What
+                            Client Says? </h2>
+                    </div>
+                    <div class="testimonials-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="info col-lg-8 mx-auto">
+                                    <div class="main-text"> Nullam sit amet sem metus. Nam nec metus eudia viverra nec
+                                        nibh. Donec euismod malesuada, quis egestas eget. Vivmus quam erat slliitudin.
+                                    </div>
+                                    <div class="user-inf">
+                                        <div class="avatar">
+                                            <img src="./assets/image/avatar.jpg" alt="" class="img-cover">
+                                        </div>
+                                        <div class="inf">
+                                            <h6 class="fsz-24 mb-2"> Liam Olivia </h6>
+                                            <p class="cr-brown1"> Restaurant Clients </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+                <img src="./assets/image/testi_bg.png" alt="" class="shaps">
+                <img src="./assets/image/testi_lines.png" alt="" class="lines">
+            </section>
+            <!--  End testimonials  -->
+
+
+            <!--  Start packets  -->
+            <!-- <section class="tc-packets-st2">
+                <div class="container">
+                    <div class="packet-row">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="img wow fadeInUp slow" data-wow-delay="0.2s">
+                                    <img src="./assets/image/packets/1.jpg" alt="" class="img-cover main-img">
+                                    <img src="./assets/image/packets/img_shap.png" alt="" class="bg-shap">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 mt-5 mt-lg-0">
+                                <div class="info wow fadeInUp slow" data-wow-delay="0.4s">
+                                    <h2 class="fsz-50 mb-30"> Costa Coffee Packet </h2>
+                                    <div class="tags"> <a href="#"> Italian Products </a> <a href="#"> powder coffee
+                                        </a> </div>
+                                    <div class="text fsz-16 mt-40"> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Nunc maximus risus at metus euismod, at suscipit urna scelerisque. Ut
+                                        cursus mauris id enim suscipit. </div>
+                                    <a href="#" class="more-link"> Read More + </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="packet-row">
+                        <div class="row align-items-center justify-content-between">
+                            <div class="col-lg-6">
+                                <div class="img wow fadeInUp slow" data-wow-delay="0.2s">
+                                    <img src="./assets/image/packets/1.jpg" alt="" class="img-cover main-img">
+                                    <img src="./assets/image/packets/img_shap.png" alt="" class="bg-shap">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 mt-5 mt-lg-0">
+                                <div class="info wow fadeInUp slow" data-wow-delay="0.4s">
+                                    <h2 class="fsz-50 mb-30"> Nescafe Coffee Packet </h2>
+                                    <div class="tags"> <a href="#"> Switzerland Products </a> <a href="#"> powder coffee
+                                        </a> </div>
+                                    <div class="text fsz-16 mt-40"> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Nunc maximus risus at metus euismod, at suscipit urna scelerisque. Ut
+                                        cursus mauris id enim suscipit. </div>
+                                    <a href="#" class="more-link"> Read More + </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+            <!--  End packets  -->
+
+
+            <!--  Start blog  -->
+            <section class="tc-blog-st2">
+                <div class="container">
+                    <div class="title text-center col-lg-6 mx-auto mb-50 wow fadeInUp slow" data-wow-delay="0.2s">
+                        <div class="icon icon-50 mx-auto">
+                            <img src="./assets/image/vec5.png" alt="" class="img-contain">
+                        </div>
+                        <h2 class="fsz-50 mt-15"> Latest New and blogs </h2>
+                        <div class="text fsz-16 mt-20" style="color: #4A1E0D;"> Proin at lorem justo. Sed maximus risus
+                            hendrerit ipsum sodales,
+                            vel consequat dui ultrices. Vestibulum ante ipsum primis in faucibus orci luctus. </div>
+                    </div>
+                    <div class="posts-slider wow fadeInUp slow" data-wow-delay="0.4s">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="post-card">
+                                    <a href="#" class="img">
+                                        <img src="./assets/image/ab1.jpg" width="100%" alt="blog" class="img-cover">
+                                    </a>
+                                    <div class="info">
+                                        <div class="tags">
+                                            <!-- User Icon -->
+                                            <a href="#">
+                                                <i class="fas fa-user me-2"></i> by Tanvir
+                                            </a>
+
+                                            <!-- Comments Icon -->
+                                            <a href="#">
+                                                <i class="fas fa-comments me-2"></i> 02 Comments
+                                            </a>
+                                        </div>
+                                        <h3>
+                                            <a href="#" class="fsz-30 hover-brown1 text-white">
+                                                White hall buffet menu price address and good review
+                                            </a>
+                                        </h3>
+                                        <a href="#" class="more-link"> Read More + </a>
+                                        <span class="date"> 09 Aug 2024 </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="post-card">
+                                    <a href="#" class="img">
+                                        <img src="./assets/image/ab2.jpg" alt="" class="img-cover">
+                                    </a>
+                                    <div class="info">
+                                        <div class="tags">
+                                            <a href="#"> <i class="fas fa-user me-2"></i> by Tanvir </a>
+                                            <a href="#"> <i class="fas fa-comments me-2"></i> 02 Comments </a>
+                                        </div>
+                                        <h3> <a href="#" class="fsz-30 hover-brown1 text-white"> White hall buffet menu
+                                                price
+                                                address and good review </a> </h3>
+                                        <a href="#" class="more-link"> Read More + </a>
+                                        <span class="date"> 09 Aug 2024 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="post-card">
+                                    <a href="#" class="img">
+                                        <img src="./assets/image/ab3.jpg" alt="" class="img-cover">
+                                    </a>
+                                    <div class="info">
+                                        <div class="tags">
+                                            <a href="#"> <i class="fas fa-user me-2"></i> by Tanvir </a>
+                                            <a href="#"> <i class="fas fa-comments me-2"></i> 02 Comments </a>
+                                        </div>
+                                        <h3> <a href="#" class="fsz-30 hover-brown1 text-white"> White hall buffet menu
+                                                price
+                                                address and good review </a> </h3>
+                                        <a href="#" class="more-link"> Read More + </a>
+                                        <span class="date"> 09 Aug 2024 </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="post-card">
+                                    <a href="#" class="img">
+                                        <img src="./assets/image/ab4.jpg" alt="" class="img-cover">
+                                    </a>
+                                    <div class="info">
+                                        <div class="tags">
+                                            <a href="#"> <i class="fas fa-user me-2"></i> by Tanvir </a>
+                                            <a href="#"> <i class="fas fa-comments me-2"></i> 02 Comments </a>
+                                        </div>
+                                        <h3> <a href="#" class="fsz-30 hover-brown1 text-white"> White hall buffet menu
+                                                price
+                                                address and good review </a> </h3>
+                                        <a href="#" class="more-link"> Read More + </a>
+                                        <span class="date"> 09 Aug 2024 </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slider Controls -->
+                        <!-- Arrows -->
+                        <div class="blog-arrow swiper-prev"><i class="fas fa-arrow-left"></i></div>
+                        <div class="blog-arrow swiper-next"><i class="fas fa-arrow-right"></i></div>
+
+                        <!-- Pagination -->
+                        <div class="swiper-pagination swiper-pagination-light"></div>
+                    </div>
+                </div>
+            </section>
+            <!--  End blog  -->
+
+
+
+            </main>
+            <!--End-Contents-->
+
+            <!--  Start footer  -->
+            <footer class="tc-footer-st2">
+                <div class="footer-links">
+                    <div class="container">
+                        <div class="row text-center text-lg-start">
+                            <!-- Working Hours -->
+                            <div class="col-lg-5 mb-4">
+                                <div class="links-group">
+                                    <h6 class="fsz-20 mb-30"> Working Hours </h6>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <ul class="links">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bi bi-clock me-2"></i>
+                                                        <span class="txt text-uppercase"> SUNDAY TO TUESDAY </span> <br>
+                                                        <span> 7.00am – 6.00pm </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <ul class="links">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bi bi-clock me-2"></i>
+                                                        <span class="txt text-uppercase"> FRIDAY TO SATURDAY </span>
+                                                        <br>
+                                                        <span> 7.00am – 6.00pm </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Contact -->
+                            <div class="col-lg-5 mb-4">
+                                <div class="links-group">
+                                    <h6 class="fsz-20 mb-30"> Contact </h6>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <ul class="links">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bi bi-geo-alt me-2"></i>
+                                                        785 15h Street - Sydney Harbor Bridge, #Australia.
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <ul class="links">
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bi bi-envelope me-2"></i>
+                                                        info.restfolio@gmail.com
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="bi bi-telephone me-2"></i>
+                                                        +444 3322 111 00
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Social -->
+                            <div class="col-lg-2 mb-4">
+                                <div class="links-group">
+                                    <h6 class="fsz-20 mb-30"> Social </h6>
+                                    <ul class="links">
+                                        <li><a href="#"><i class="bi bi-facebook me-2"></i> Facebook</a></li>
+                                        <li><a href="#"><i class="bi bi-instagram me-2"></i> Instagram</a></li>
+                                        <li><a href="#"><i class="bi bi-pinterest me-2"></i> Pinterest</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lines"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <!-- Information Section -->
+                <div class="foot-suscribe text-center">
+                    <div class="container">
+                        <a href="#" class="foot-logo th-50 mb-20 d-inline-block">
+                            <img src="./assets/image/Kaefin Logo 01.png" alt="">
+                        </a>
+                        <p class="fsz-16 px-lg-5 mx-lg-5" style="color:#4A1E0D"> Pellentesque habitant morbi tristique
+                            senectus et netus
+                            et malesuada fames ac turpis egestas. Duis vel metus sit amet dolor finibus convallis.
+                        </p>
+
+                        <p class="mt-3"> <a href="#" class="cr-brown1"> ThemesCamp </a>© 2024. All Rights Reserved. </p>
+                    </div>
+                    <div class="lines"><span></span><span></span><span></span><span></span></div>
+                </div>
+
+                <img src="./assets/image/vec3.png" alt="" class="shap">
+            </footer>
+            <!--  End footer  -->
+
+
+
+
+
+        </div>
+        <!--  End hero Section  -->
+
+        <!--  Start to top button  -->
+        <!-- <a href="#" class="to_top" id="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a> -->
+        <!--  End to top button  -->
+
+        <!--  request  -->
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+        <script>
+            VANTA.FOG({
+                el: "#smoke-bg",
+                mouseControls: true,  // 👈 Mouse movement enable
+                touchControls: true,  // 👈 Touchscreen control enable
+                highlightColor: 0xffffff,
+                midtoneColor: 0xaaaaaa,
+                lowlightColor: 0x000000,
+                baseColor: 0x000000,
+                blurFactor: 0.5,
+                speed: 1.5,
+                zoom: 1.00
+            })
+        </script>
+
+        <!-- ✅ jQuery Migrate -->
+        <script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"></script>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- ✅ WOW.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+        <!-- ✅ Fancybox -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+        <!-- ✅ Lity -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+
+        <!-- ✅ Swiper 8 -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!-- ✅ Waypoints -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+        <!-- ✅ CounterUp -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+
+
+        <!-- ✅ Parallaxie -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallaxie/0.5.0/parallaxie.min.js"></script>
+
+        <!-- ✅ GSAP Core -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+        <!-- ✅ GSAP Plugins -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+
+        <!-- ⚠ ScrollSmoother & SplitText (GSAP Club Plugins, free CDN nahi milte) -->
+
+
+        <!-- === main === -->
+        <script src="./assets/main.js"></script>
+
+
+
+</body>
+</html>
